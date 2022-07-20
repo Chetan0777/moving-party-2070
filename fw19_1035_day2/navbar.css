@@ -1,0 +1,241 @@
+* {
+    margin: 0%;
+    padding: 0%;
+box-sizing: border-box;
+
+}
+
+#navbar {
+    /* border: 1px solid black; */
+    background: #fff;
+    width: 95%;
+    display: flex;
+    gap: 14%;
+    margin: auto;
+    height: 90px;
+    position: sticky;
+    top: 0%;
+
+}
+
+
+
+#image_box {
+    /* border: 1px solid black; */
+    width: 15%;
+    /* padding: 10px; */
+}
+
+#image_box>img {
+    width: 90%;
+    margin-left:30px;
+}
+
+#links_box {
+    /* border: 1px solid red; */
+    width: 68%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#links_box a {
+    font-size: 17px;
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#links_box a:hover {
+    color: #fe5000;
+}
+
+#navbar>div {
+    display: flex;
+    align-items: center;
+    /* border: solid black; */
+
+}
+
+
+
+#request_demo a {
+    padding: 10px 30px;
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(26, 26, 169);
+    transition: 0.7s;
+    /* border: solid red; */
+
+}
+
+#request_demo a:hover {
+
+    background-color: #fe5000;
+    color: white;
+    transform: translate3d(3);
+}
+
+#links_box>p {
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+}
+#footer{
+    padding:7% 4% 0 7%;
+    background-color: white;
+    border: solid red;
+}
+#blue_bar{
+  margin: auto;
+    height: 100px;
+    background-color: rgb(21, 21, 167);
+    display: flex;
+    overflow: visible;
+    color: white;
+    font-size: 20px;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: space-around;
+}
+#blue_bar>p>span{
+    color: #fe5000;
+}
+#blue_bar>p{
+    font-size: 21px ;
+    width: 39%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#f_main{
+    display: flex;
+    margin-top: 100px;
+    border: solid black;
+    margin-bottom: 100px;
+    justify-content: space-between;
+}
+
+#f_right{
+
+    width: 65%;
+    border: solid black;
+    
+    display: flex;
+    justify-content: space-between;
+}
+#f_right a{
+    text-decoration: none;
+    /* color: black; */
+}
+#f_right>div>a{
+    font-size: 20px;
+    font-weight: 600;
+    color: navy;
+    margin-bottom: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#f_right a:hover{
+    color: #fe5000;
+    transition: 0.7s;
+}
+.sum_menu3{
+    display: flex;
+    flex-direction: column;
+}
+#f_right ul>li{
+    text-decoration: none;
+    list-style: none;
+    font-size: 16px;
+    line-height: 35px;
+    
+}
+#f_right ul>li>a{
+    color: black;
+    opacity: 0.7;
+    font-family:   sans-serif;
+}
+#last{
+    width: 100%;
+    height: 100px;
+    /* border: solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#last>div:nth-child(1){
+display: flex;
+gap: 20px;
+color: black;
+
+}
+#last>div:nth-child(1) a{
+    /* text-decoration: none; */
+    color: black;
+    opacity: 0.8;
+}
+
+#last>div:nth-child(1) a:hover{
+    color: #fe5000;
+    /* text-decoration: underline; */
+    transition: 0.7s;
+    
+}
+#last>div:nth-child(2){
+    color: #fe5000;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    font-size: 20px;
+    margin-right: 60px;
+}
+#last>div:nth-child(2) i:hover{
+    color: rgb(21, 21, 167);
+}
+#f_left{
+    width: 30%;
+    border: solid red;
+    line-height: 40px;
+    font-size: 12px;
+    /* font-family: Garamond; */
+}
+#f_left>img{
+    width: 60%;
+    margin-bottom: 20px;
+}
+#intro_text{
+    font-size: 27px;
+    /* font-weight: 300px; */
+    opacity: 0.8;
+}
+#place_div{
+    width: 100%;
+    height: 60px;
+    border-radius: 50px;
+    /* justify-content: space-between; */
+    padding:2px 2px 2px 20px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    background-color:  #f5f5f5 ;
+    margin-top: 20px;
+}
+#place_div>input,button{
+    height: 100%;
+    
+}
+#place_div>input{
+    height: 100%;
+    width: 60%;
+    
+}
+#place_div>button{
+    width: 120px;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    background-color: rgb(28, 28, 173);
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
