@@ -84,9 +84,9 @@ box-sizing: border-box;
     justify-content: center;
 }
 #footer{
-    padding:7% 4% 0 7%;
+    padding:7% 4% 0 4%;
     background-color: white;
-    border: solid red;
+    /* border: solid red; */
 }
 #blue_bar{
   margin: auto;
@@ -111,7 +111,7 @@ box-sizing: border-box;
 #f_main{
     display: flex;
     margin-top: 100px;
-    border: solid black;
+    /* border: solid black; */
     margin-bottom: 100px;
     justify-content: space-between;
 }
@@ -119,7 +119,7 @@ box-sizing: border-box;
 #f_right{
 
     width: 65%;
-    border: solid black;
+    /* border: solid black; */
     
     display: flex;
     justify-content: space-between;
@@ -152,7 +152,7 @@ box-sizing: border-box;
 }
 #f_right ul>li>a{
     color: black;
-    opacity: 0.7;
+    /* opacity: 0.7; */
     font-family:   sans-serif;
 }
 #last{
@@ -172,7 +172,11 @@ color: black;
 #last>div:nth-child(1) a{
     /* text-decoration: none; */
     color: black;
-    opacity: 0.8;
+    font-size: 15px;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+
+    /* opacity: 0.8; */
 }
 
 #last>div:nth-child(1) a:hover{
@@ -194,10 +198,17 @@ color: black;
 }
 #f_left{
     width: 30%;
-    border: solid red;
+    /* border: solid red; */
     line-height: 40px;
-    font-size: 12px;
+    font-size: 13px;
     /* font-family: Garamond; */
+}
+#f_left span{
+    font-size: 14px;
+}
+#f_left span:hover{
+    color: #fe5000;
+    cursor: pointer;
 }
 #f_left>img{
     width: 60%;
@@ -206,27 +217,34 @@ color: black;
 #intro_text{
     font-size: 27px;
     /* font-weight: 300px; */
-    opacity: 0.8;
+    /* opacity: 0.8; */
 }
 #place_div{
     width: 100%;
-    height: 60px;
+    height: 57px;
     border-radius: 50px;
     /* justify-content: space-between; */
-    padding:2px 2px 2px 20px;
+    padding:5px 5px 5px 20px;
     /* border: 1px solid black; */
     display: flex;
     justify-content: space-between;
-    background-color:  #f5f5f5 ;
+    background-color:  #e3e0e0 ;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
-#place_div>input,button{
+#place_div>input{
+    height: 100%;
+    
+}
+#place_div>button{
     height: 100%;
     
 }
 #place_div>input{
     height: 100%;
     width: 60%;
+    background-color: transparent;
+    border: none;
     
 }
 #place_div>button{
@@ -236,6 +254,65 @@ color: black;
     color: white;
     background-color: rgb(28, 28, 173);
     font-size: 17px;
+    cursor: pointer;
     font-family: Arial, Helvetica, sans-serif;
     
 }
+#place_div>button:hover{
+    background-color: #fe5000;
+    transition: 0.7s;
+}
+
+/* ***********mouseover css ********/
+#window{
+    width: 94%;
+    height: 350px;
+    display: flex;
+    padding: 10px;
+    position: absolute;
+    margin-left: 3%;
+   top: 90px;
+    background-color: white;
+    transition: 0.9s;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+#window>div:first-child>h1:hover{
+color: #fe5000;
+}
+#window>div{
+    width: 25%;
+    /* border:1px solid black; */
+    /* height: 100%; */
+    padding: 40px;
+    line-height: 25px;
+    
+}
+
+.on_headings{
+    font-size: 22px;
+    color: rgb(28, 28, 173);
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+
+    
+}
+#window>div:last-child{
+    background-color: navy;
+    color: white;
+     
+ }
+.Contact{
+
+    /* color: #fe5000; */
+    font-size: 22px;
+    font-weight: 500;
+     
+ }
+.Contact:hover{
+
+    color: #fe5000;
+    cursor: pointer;
+     
+ }
