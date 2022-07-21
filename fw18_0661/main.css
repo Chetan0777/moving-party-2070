@@ -112,3 +112,15 @@ p {
     ;
 }
 /* global classes end */
+
+/* testimonial */
+.testimonial {
+    max-width: 70%;
+    margin: auto
+}
+
+.testimonial img {
+    border-radius: 50%;
+}
+
+/* end testimonial */
