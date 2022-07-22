@@ -1,17 +1,18 @@
 function navbar() {
   return ` 
   <div id="image_box">
+  <a href="../../fw18_0661/index.html">  
   <img src="https://10qnr7pp4618p5tu1sihfwn1-wpengine.netdna-ssl.com/wp-content/uploads/2022/02/MT-Logo@2x-1.png"
-      alt="">
+      alt=""></a>
 </div>
 <div id="links_box">
-  <a class="arr" href="">Sales Readiness Platform</a>
-  <a class="arr" href="">Solutions</a>
-  <a class="arr" href="">Customers</a>
-  <a class="arr" href="">Resources</a>
-  <a class="arr" href="comapany_page.html">Company</a>
-  <p id="request_demo"><a href="">Request Demo</a></p>
-  <a href="">Register</a>
+  <a class="arr" href="../../fw19_1009/Sales.html">Sales Readiness Platform</a>
+  <a class="arr" href="../../fw17_1094/soluton.html">Solutions</a>
+  <a class="arr" href="../../fw19_1009/customers.html">Customers</a>
+  <a class="arr" href="../../fw16_488/home.html">Resources</a>
+  <a class="arr" href="../../fw19_1035/company_page.html">Company</a>
+  <p id="request_demo"><a href="../../fw18_0661/rqst.html">Request Demo</a></p>
+  <a href="../../fw17_1094/register.html">Register</a>
 
 </div>
   `;
@@ -309,3 +310,4 @@ export {
   salesReadinesPlatform,
   main,
 };
+// import register from "../../fw17_1094/register.html"
