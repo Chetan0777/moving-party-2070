@@ -1,3 +1,7 @@
+body{
+    font-family: montserrat, "Trebuchet MS", Helvetica, sans-serif;
+}
+
 .wrapper{
     margin: 0;
     padding: 0;
@@ -12,13 +16,13 @@
 .wrapper .left-side .first{
 
     color: #10069f;
-    font-family: Montserrat, sans-serif; 
+    /* font-family: Montserrat, sans-serif;  */
     font-weight: 600;
     font-size: 55px;
     width:90%;
     text-transform: capitalize;
     /* line-height: 600;  */
-    margin-bottom: 20px;
+    margin-bottom: 1%;
 } 
 
 
@@ -26,7 +30,7 @@
     
 
     color:#57518d;
-    font-family: roboto, sans-serif;
+    /* font-family: roboto, sans-serif; */
     font-weight: 300;
     font-size: 25px;
     width:90%;
@@ -41,7 +45,7 @@
     height: 60px;
     padding-left: 15px;
     color: #2a2e36;
-  font-family: Helvetica, Arial, sans-serif;
+  /* font-family: Helvetica, Arial, sans-serif; */
     width: 90%;
     font-weight: 400;
     height: 60px !important;
@@ -69,7 +73,7 @@
     width: 100%;
     /* height: 500px; */
     /* padding-right: 300px; */
-    padding-top: 45px;
+    padding-top: 12%;
 }
 
 #first{
@@ -80,7 +84,7 @@
 
 #second{
     background-color: #f9f9f9;
-    margin-top: 100px;
+    margin-top: 5%;
     margin-left: 10%;
     margin-right: 10%;
 }
@@ -88,16 +92,17 @@
 .navbar{
     display: flex;
     justify-content: space-around;
-    font-family:Montserrat, sans-serif; 
+    /* font-family:Montserrat, sans-serif;  */
     font-weight: 700;
     color: #000000;
     font-size: 20px;
-    padding-top: 10px;
+    padding-top: 1%;
     /* height: 1000px; */
 }
 .navbar input{
     border-radius: 10px;
-    height: 40px;
+    height: 45px;
+    /* height: 15%; */
     border: none;
     /* background-color: whitesmoke; */
     background-color: #ffffff;
@@ -110,15 +115,16 @@
     color: #10069f;
     font-size: 26px;
     font-weight: 700;
-    font-family: Montserrat, sans-serif;;
-    padding-top: 20px;
+    /* font-family: Montserrat, sans-serif; */
+    /* padding-top: 20px; */
+    padding-top: 1%;
 }
 
 #second .middle p{
     color: #333333;
     font-size: 25px;
     font-weight: 400;
-    font-family: Montserrat, sans-serif;;
+    /* font-family: Montserrat, sans-serif; */
 }
 
 .grid{
@@ -127,7 +133,8 @@
     grid-template-columns: repeat(3,1fr);
     column-gap: 20px;
     row-gap: 40px;
-    margin-top: 50px;
+    /* margin-top: 50px; */
+    margin-top: 5%;
     width: 70%;
     margin-left: 15%;
     margin-right: 10%;
@@ -147,7 +154,7 @@
    /* box-sizing: border-box; */
    border-radius: 10px;
     font-weight: 400;
-    font-family: Montserrat, sans-serif;
+    /* font-family: Montserrat, sans-serif; */
  }
 
  .simple{
@@ -157,8 +164,10 @@
     color: #e3e0e0;
     /* font-size: 25px; */
     width: 94%;
-    height: 350px;
-    padding: 10px;
+    height: 370px;
+    /* padding: 10px; */
+
+    padding: 1%;
     
     
     /* line-height: 20px; */
@@ -167,24 +176,26 @@
    /* box-sizing: border-box; */
    border-radius: 10px;
     font-weight: 700;
-    font-family: Montserrat, sans-serif;
+    /* font-family: Montserrat, sans-serif; */
     text-align: center;
  }
  .simple .sim{
-    margin-top: 20px;
+    /* margin-top: 20px; */
     width: 80%;
     margin: auto;
     /* justify-content: center; */
     font-size: 30px;
     /* text-align: center; */
     /* word-spacing: 5px; */
-    margin-bottom: 108px;
+    /* margin-bottom: 108px; */
+
+    margin-bottom: 44%;
  }
 
  .simple button {
    /* background-color: #10059f; */
     /* padding-top: 50px; */
-    margin-top: 40px;
+    /* margin-top: 400px; */
     font-size: 20px;
     background-color:  #ff5000;
     color:#ffdfe5;
@@ -220,9 +231,9 @@
     width: 80%;
     box-sizing: border-box,content-box;
     /* margin-left: 10px;  */
-    padding-left: 15px;
+    padding-left: 10%;
     /* background-color: #000000; */
-   margin-top: 10px;
+   margin-top: 10%;
    /* border: 1px solid red; */
    text-align: start;
    word-break: keep-all;
@@ -233,11 +244,12 @@
  .grid-form .scnd {
     /* text-align: end; */
     color: #fe5000;
-    padding-left: 25px;
+    padding-left: 15%;
      /* margin-top: 60px;  */
      /* margin-left: 15px; */
     font-weight: 750; 
-    margin-top: 90px;
+    /* margin-top: 90px; */
+    padding-top: 18%;
     /* border: 1px solid red; */
    
 
@@ -255,8 +267,8 @@
     display: flex;
     justify-content: space-between;
     background-color:  #e3e0e0 ;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    /* margin-top: 20px; */
+    margin-bottom: 6%;
 }
 .place_div>input{
     height: 100%;
@@ -282,7 +294,7 @@
     background-color: #fe5000;
     font-size: 17px;
     cursor: pointer;
-    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: Arial, Helvetica, sans-serif; */
     
 }
 /* #place_div>button:hover{
