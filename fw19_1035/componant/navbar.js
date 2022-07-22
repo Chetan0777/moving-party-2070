@@ -9,9 +9,9 @@ function navbar() {
   <a class="arr" href="">Solutions</a>
   <a class="arr" href="">Customers</a>
   <a class="arr" href="">Resources</a>
-  <a class="arr" href="">Company</a>
+  <a class="arr" href="comapany_page.html">Company</a>
   <p id="request_demo"><a href="">Request Demo</a></p>
-  <p><a href="">Register</a></p>
+  <a href="">Register</a>
 
 </div>
   `;
@@ -108,28 +108,204 @@ function footer() {
   </div>
 </div>`;
 }
-function window() {
+function company() {
   return `<div>
-  <h1>About Mindtckle</h1>
+  <h1 class="blue1">About Mindtickle</h1>
   <p>Meet Mindtickle. We’re a leading sales enablement company that thrives on creating impact for our
       customers.</p>
-  <button>Who We Are</button>
+  <a >Who We Are <i class="fa-solid fa-arrow-right-long"></i></a>
 </div>
 <div>
   <p class="on_headings">Culture</p>
   <p>Create sales excellence by perterning an incredble team</p>
   <p class="on_headings">Careers</p>
-  <p>Explore job operning around globe with Mindticle</p>
+  <p>Explore  job operning around the globe with mindtickle </p>
 </div>
 <div>
-  <p class="on_headings">Culture</p>
-  <p>Create sales excellence by perterning an incredble team</p>
-  <p class="on_headings">Careers</p>
-  <p>Explore job operning around globe with Mindticle</p>
+  <p class="on_headings">News</p>
+  <p>Read the lattest and gretest form mindtickle family</p>
+  <p class="on_headings">Partner</p>
+  <p>Discove how our partners make our offering stronger</p>
 </div>
 <div>
   <p class="Contact">Contact Us</p>
   <p>Have a question? connect with our team and get answers</p>
 </div>`;
 }
-export { navbar, footer, window };
+function resourse() {
+  return `<div>
+  <h1 class="blue1">Sales Readiness Resources</h1>
+  <p>We're dedicated to sharing everything we've learned. Browse the best from the sales readiness expert at
+      Mindtickle</p>
+  <a>View All<i class="fa-solid fa-arrow-right-long"></i></a>
+</div>
+<div>
+  <p class="on_headings">Resourse Hub</p>
+  <p>Insites, guide reports checklist, videos and more. Filter and browse our full arsenal</p>
+  <p class="on_headings">Be Ready Blog</p>
+  <p>Explore job operning around the globe with mindtickle </p>
+  <p class="on_headings">Events</p>
+  <p>Explore job operning around the globe with mindtickle </p>
+  <p class="on_headings">Ready or Not? Video Series</p>
+  <p>Explore job operning around the globe with mindtickle </p>
+</div>
+<div>
+  <p class="on_headings">Network
+  </p>
+  <p>Read the lattest and gretest form mindtickle family</p>
+  <p class="on_headings">Partner</p>
+  <p>Discove how our partners make our offering stronger</p>
+</div>
+<div>
+  <p class="Contact"> What is sales Readindess? (And Why it Matters)</p>
+  <p>And how it can improve traning sales, and perforamnce</p>
+</div>`;
+}
+
+function solutions() {
+  return `<div>
+  <h1 class="blue1">Sales Readines Solutions</h1>
+  <p>Focus on your teams sales training coaching needs with comprehensive readiness</p>
+  <a>Solution Overview<i class="fa-solid fa-arrow-right-long"></i></a>
+</div>
+<div>
+  <p class="on_headings">Sales Onboarding</p>
+  <p>Ramp new sales team members quickly with learning that sticks
+      Sales Training</p>
+  <p class="on_headings">Partner Enablement</p>
+  <p>Explore job operning around the globe with mindtickle </p>
+  <p class="on_headings">Sales Kickoffs</p>
+  <p>Leverage field evidence to inform your growth plans </p>
+  <p class="on_headings">Account Strategy & Review</p>
+  <p>Get your partners scaled quickly and keep them updated</p>
+  <p class="on_headings">Sales Certification</p>
+  <p>Ensure reps are ready to implement skills in the field </p>
+  <p class="on_headings">Voice of the Customer</p>
+  <p>Gain complete insight into customer expectations</p>
+</div>
+<div>
+  <p class="on_headings">Network
+  </p>
+  <p>Read the lattest and gretest form mindtickle family</p>
+  <p class="on_headings">Partner</p>
+  <p>Discove how our partners make our offering stronger</p>
+  <p class="on_headings">Network
+  </p>
+  <p>Read the lattest and gretest form mindtickle family</p>
+  <p class="on_headings">Partner</p>
+  <p>Discove how our partners make our offering stronger</p>
+</div>
+<div>
+  <p class="Contact">Sales Enablement
+  </p>
+  <p>Teach your teams, track and address skill gaps systematically
+  </p>
+  <p class="Contact">Sales Leadership
+  </p>
+  <p>Set the true north for sales excellence
+  </p>
+  <p class="Contact">Frontline Managers
+  </p>
+  <p>Know where your reps need skill development and coach them
+  </p>
+  <p class="Contact">Sales Ops
+  </p>
+  <p>Report on data from enablement, content, and sales</p>
+</div>`;
+}
+function salesReadinesPlatform() {
+  return `<div>
+  <h1 class="blue1">Sales Readiness Platform</h1>
+  <p>Transform your revenue team using Mindtickle sales Readiness platform</p>
+  <a>Platform Overview<i class="fa-solid fa-arrow-right-long"></i></a>
+</div>
+<div>
+  <p class="on_headings">Sales Enablement & Training
+  </p>
+  <p>Build rep knowledge and skills with practice and AI-assisted reinforcement
+  </p>
+  <p class="on_headings">Sales Content Management
+  </p>
+  <p>Align content to skills, sales processes, and customer needs
+  </p>
+  <p class="on_headings">Conversation Intelligence
+  </p>
+  <p>Understand field performance during customer interactions
+  </p>
+  <p class="on_headings">Revenue Intelligence
+  </p>
+  <p> Gain complete visibility into your pipeline health and rep’s sales readiness</p>
+</div>
+<div>
+  <p class="on_headings">Sales Readiness Index™
+  </p>
+  <p>Identify your Ideal Rep Profile™ and tie skills to sales success </p>
+  <p class="on_headings">Analytics & Dashboards
+  </p>
+  <p>Measure knowledge and skills through persona-based insights</p>
+  <p class="on_headings">Sales Coaching
+  </p>
+  <p>Optimize performance and skill gaps with personalized coaching</p>
+</div>
+<div>
+  <p class="Contact"> Integrations
+  </p>
+  <p>Learn how Mindtickle works seamlessly with your stack</p>
+  <p class="Contact"> Services
+  </p>
+  <p>Mindtickle’s advisory, professional, and content services that ensure your programs succeed</p>
+</div>`;
+}
+function main(arr) {
+  arr.forEach((el) => {
+    el.addEventListener("mouseover", function () {
+      // add();
+      let selected = el.innerHTML;
+      selctor(selected);
+    });
+    el.addEventListener("mouseout", function () {
+      // del();
+      let selected = el.innerHTML;
+      del();
+    });
+  });
+  function add(func) {
+    document.querySelector("#window").innerHTML = func();
+    document.querySelector("#window").st;
+  }
+  function del() {
+    document.querySelector("#window").innerHTML = null;
+  }
+  function selctor(input) {
+    // console.log(input);
+    switch (input) {
+      case "Sales Readiness Platform":
+        //console.log(salesReadinesPlatform());
+        add(salesReadinesPlatform);
+        break;
+      case "Solutions":
+        add(solutions);
+        break;
+      case "Customers":
+        break;
+
+      case "Resources":
+        add(resourse);
+        break;
+      case "Company":
+        add(company);
+        break;
+      default:
+        break;
+    }
+  }
+}
+export {
+  navbar,
+  footer,
+  company,
+  resourse,
+  solutions,
+  salesReadinesPlatform,
+  main,
+};
