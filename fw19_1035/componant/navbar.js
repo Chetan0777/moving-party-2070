@@ -14,8 +14,7 @@ function navbar() {
   <p id="request_demo"><a href="../../fw18_0661/rqst.html">Request Demo</a></p>
   <a href="../../fw17_1094/register.html">Register</a>
 
-</div>
-  `;
+</div>`;
 }
 function footer() {
   return `<div id="blue_bar">

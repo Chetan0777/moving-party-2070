@@ -7,10 +7,9 @@ import {
   salesReadinesPlatform,
   main,
 } from "./componant/navbar.js";
+// console.log(navbar);
 
 document.getElementById("navbar").innerHTML = navbar();
 document.getElementById("footer").innerHTML = footer();
 let arr = document.querySelectorAll(".arr");
-
-// main function to
 main(arr);

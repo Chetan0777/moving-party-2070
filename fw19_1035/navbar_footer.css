@@ -2,6 +2,8 @@
     margin: 0%;
     padding: 0%;
 box-sizing: border-box;
+font-family: montserrat, "Trebuchet MS", Helvetica, sans-serif
+
 
 }
 
@@ -25,7 +27,7 @@ box-sizing: border-box;
 
 #image_box {
     /* border: 1px solid black; */
-    margin-left: 1%;
+    margin-left: 2%;
     width: 15%;
     /* padding: 10px; */
 }
@@ -47,7 +49,7 @@ box-sizing: border-box;
     font-weight: 500;
     text-decoration: none;
     color: black;
-    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: Arial, Helvetica, sans-serif; */
 
 }
 
@@ -110,7 +112,7 @@ box-sizing: border-box;
 #blue_bar>p{
     font-size: 21px ;
     width: 39%;
-    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: Arial, Helvetica, sans-serif; */
 }
 #f_main{
     display: flex;
@@ -137,7 +139,7 @@ box-sizing: border-box;
     font-weight: 600;
     color: navy;
     margin-bottom: 18px;
-    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: Arial, Helvetica, sans-serif; */
 }
 #f_right a:hover{
     color: #fe5000;
@@ -157,7 +159,7 @@ box-sizing: border-box;
 #f_right ul>li>a{
     color: black;
     /* opacity: 0.7; */
-    font-family:   sans-serif;
+    /* font-family:   sans-serif; */
 }
 #last{
     width: 100%;
@@ -178,7 +180,7 @@ color: black;
     color: black;
     font-size: 15px;
     font-weight: 100;
-    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: Arial, Helvetica, sans-serif; */
 
     /* opacity: 0.8; */
 }
@@ -259,7 +261,7 @@ color: black;
     background-color: rgb(28, 28, 173);
     font-size: 17px;
     cursor: pointer;
-    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: Arial, Helvetica, sans-serif; */
     
 }
 #place_div>button:hover{
@@ -275,7 +277,7 @@ color: black;
     /* padding: 6px; */
     position: sticky;
     margin-left: 3%;
-   top: 92px;
+   top: 100px;
     background-color: white;
     transition: 0.9s;
     border-radius: 10px;
@@ -296,12 +298,12 @@ color: #fe5000;
 }
 .blue1{
     color: #10069f ;
-    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: Arial, Helvetica, sans-serif; */
     margin-bottom: 20px;
 }
 .blue1+p{
     font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: Arial, Helvetica, sans-serif; */
     font-weight: 100;
     margin-bottom: 40px;
 }
@@ -311,7 +313,7 @@ color: #fe5000;
    border-radius: 30px;
    cursor: pointer;
    transition: 0.9s;
-   font-family: Arial, Helvetica, sans-serif;
+   /* font-family: Arial, Helvetica, sans-serif; */
    background-color: #fe5000;
 }
 .blue1+p+a>i{
@@ -323,7 +325,7 @@ color: #fe5000;
     font-size: 22px;
     color: #10069f ;
     font-weight: 500;
-    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: Arial, Helvetica, sans-serif; */
 
     
 }
