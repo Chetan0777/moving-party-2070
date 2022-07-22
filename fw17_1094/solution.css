@@ -1,17 +1,19 @@
-*{    -webkit-font-smoothing: antialiased;
+/* body::-webkit-scrollbar{
+    display: none;
+} */
+
+
+*{    
     box-sizing: border-box;
     padding: 0%;
     margin: 0%;
-    /* margin-bottom: 0!important; */
-    /* padding-bottom: 0!important; */
+    font-family: 'Roboto', sans-serif;
+    
 
 }
 #row1{
-    /* border:1px solid black; */
+    
     width:auto;
-    /* height: px; */
-    /* align-items: center; */
-    /* margin: auto; */
     justify-content: space-between;
     display: flex;
 }
@@ -27,11 +29,11 @@
 }
 #sale > h1{
     color: #10069F;
-    font-family: montserrat,"Trebuchet MS",Helvetica,sans-serif;
+    /* font-family: montserrat,"Trebuchet MS",Helvetica,sans-serif; */
     font-weight: 600;
    
     margin-left: 20px;
-    font-size: 90px;
+    font-size: 70px;
    
     padding-left: 40px;
 }
@@ -49,7 +51,7 @@ color: gray;
     margin-left: 20px;
     font-size: 2.25rem;
     /* font-size: 0px; */
-    font-family: monospace;
+    /* font-family: monospace; */
     /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
 }
 
@@ -143,6 +145,7 @@ background-color: #FE5000;
     border-radius: 20px;
     min-height: 40px;
     padding: 20px 20px 20px 20px;
+    margin-left:-100px;
 }
 .btn1:hover{
     background-color: #10069F;
@@ -225,7 +228,8 @@ padding:300px 40px 40px 40px;
     padding-top: 20px;
     color: gray;
     columns: #999;;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-family: montserrat, "Trebuchet MS", Helvetica, sans-serif;
+    /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; */
 }
 #row4 > div:hover{
     cursor: pointer;
@@ -301,8 +305,9 @@ padding:300px 40px 40px 40px;
         /* font-size: bold; */
         font-size: 30px;
         color: gray;
-    columns: #999;;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    columns: #999;
+    font-family: montserrat, "Trebuchet MS", Helvetica, sans-serif;
+    /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; */
 
     }
     #create2 > h3{
@@ -311,7 +316,7 @@ padding:300px 40px 40px 40px;
         color: white;
         font-size: 30px;
         padding-bottom: 10px;
-        
+        font-family: montserrat, "Trebuchet MS", Helvetica, sans-serif;
     font-family: roboto,Geneva,Lucida Console,sans-serif;
         
     }
@@ -361,14 +366,16 @@ padding:300px 40px 40px 40px;
         color: gray;
     columns: #999;;
     /* font-family: montserrat,"Trebuchet MS",Helvetica,sans-serif; */
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-family: montserrat, "Trebuchet MS", Helvetica, sans-serif;
+    /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; */
 
         }
         .h3{
            margin: 50px  50px 50px 50px;
             font-size: 25px;
             color: gray;
-            font-family: roboto,Geneva,Lucida Console,sans-serif;
+            /* font-family: roboto,Geneva,Lucida Console,sans-serif; */
+            font-family: montserrat, "Trebuchet MS", Helvetica, sans-serif
 
         }
         #row7{ justify-content: space-around;
@@ -438,7 +445,8 @@ padding:300px 40px 40px 40px;
             /* padding-top: 20px; */
            padding: 30px 30px 30px 30px;
             color: #999;
-            font-family: roboto,Geneva,Lucida Console,sans-seri
+            /* font-family: roboto,Geneva,Lucida Console,sans-seri */
+            font-family: montserrat, "Trebuchet MS", Helvetica, sans-serif;
            }
            .h4{
             padding-left: 280px;

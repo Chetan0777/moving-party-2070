@@ -1,3 +1,20 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,500;1,100;1,200;1,300&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-image: url("https://data.whicdn.com/images/357770620/original.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: 3s;
+  background-image: no-repeat;
+  font-family: "Work Sans", "sans-serif";} */
+
+
+
+
 body{
     scroll-behavior: smooth;
     position: relative;
@@ -10,20 +27,23 @@ p{
 font-family: 'Roboto', sans-serif;
 
 }
+
 #paymentpage>p{
     background-color: orangered;
-    font-size: 80px;
+    font-size: 50px;
     text-align: center;
     border-radius: 5px;
     width: 100%;
     margin-bottom: 5px;
-    font-size: 20px;
     height: auto;
 }
                             
 #name
 {
     display: flex;
+}
+#name >div > p{
+    background-color: orangered;
 }
 #name >div>input
 {
@@ -47,6 +67,7 @@ font-family: 'Roboto', sans-serif;
      border-radius: 10px;
 
 }
+
 #email>input>placeholder
 {
     font-size: 5px;
@@ -55,11 +76,12 @@ font-family: 'Roboto', sans-serif;
 {
     display: flex;
 }
+
 #cardvalue>div
 {
-
+    /* background-color: orangered; */
     margin-left: 30px;
-    width: 40%; 
+    width: 90%; 
 }
 #cardvalue>input{
     padding: 20px;
@@ -124,6 +146,7 @@ font-family: 'Roboto', sans-serif;
     padding: 18px;
     font-size: 16px;
 }
+
 #combine{
    display: flex;
 }
@@ -131,6 +154,9 @@ font-family: 'Roboto', sans-serif;
     display: flex;
     margin-top: 50px;
     
+}
+#total >p{
+    background-color: orangered;
 }
 #total>input{
     width: 200px;
@@ -147,10 +173,12 @@ font-family: 'Roboto', sans-serif;
                     
 #checkbox{
     width: 100%;
-    margin-top: 10px;
-    margin-bottom: -40px;
-    font-size: 16px;
+    margin-top: 100px;
+    /* margin-bottom: -40px; */
+    font-size: 25px;
     display: inline;
+    background-color: orangered;
+    /* padding-top: 100px; */
 }  
 #checkbox>input{
     width: 40px;
@@ -160,7 +188,7 @@ font-family: 'Roboto', sans-serif;
 
 
 #checkbox:hover{
-    color: rgb(33, 124, 21);
+    color: rgb(21, 57, 124);
     font-weight:700;
 }
 
@@ -191,6 +219,7 @@ font-family: 'Roboto', sans-serif;
     
 }
 #total>input{
+    color: orangered;
     font-size: 25px;
 }
 
@@ -222,21 +251,23 @@ font-family: 'Roboto', sans-serif;
 }
 #cardvalue>div
 {
-    width: 40%; 
+    width: 50%; 
 }
 #cardvalue>input{
     padding: 5px;
     width: 50%;
     font-size: 16px;
+    
+color: orangered;
 }
                              
 #cardvalue>div>img{
-    width: 20px;
-    height: 20px;
+    width: 60px;
+    height: 60px;
 
 }
 #cardvalue>div{
-    width: 200px;
+    width: 400px;
     margin-top: 10px;
 }
 #total>input{
@@ -247,6 +278,8 @@ font-family: 'Roboto', sans-serif;
     font-size:26px;
     text-align: center;
     margin-top: 20px;
+    
+color: orangered;
 }
 #total>p{
     font-size: 20px;
@@ -305,11 +338,12 @@ font-family: 'Roboto', sans-serif;
     padding: 5px;
     width: 50%;
     font-size: 12px;
+    color: orangered;
 }
                                 
 #cardvalue>div>img{
-    width: 20px;
-    height: 20px;
+    width: 90px;
+    height: 90px;
 
 }
 #cardvalue>div{
@@ -340,6 +374,12 @@ p{
      border-radius: 5px;
 
 }
+/* #emai>p{
+    background-color: orangered;
+} */
+ #cardnum > div >p{
+    background-color: orangered;
+ }
 #email>input>placeholder
 {
     font-size: 2px;
@@ -369,6 +409,17 @@ p{
     padding: 5px;
     font-size: 10px;
 
+}
+#contry > p{
+    background-color: orangered;
+}
+#expirydetails> div > p{
+
+    background-color: orangered;
+
+}
+#contry >p{
+    background-color: orangered;
 }
 #combine{
     display: block;
@@ -417,8 +468,7 @@ p{
 #paymentbtn>input:hover{
   
     font-size: 12px;
-  
-    color: white;
+ color: white;
     background-color: blue;
     
 }
@@ -432,5 +482,6 @@ p{
     margin-bottom: 5px;
     font-size: 40px;
     height: auto;
+    /* background-color: orangered; */
 
 }
