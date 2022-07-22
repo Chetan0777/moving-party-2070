@@ -1,8 +1,16 @@
-import { navbar, footer, window } from "./componant/navbar.js";
+import {
+  navbar,
+  footer,
+  company,
+  resourse,
+  solutions,
+  salesReadinesPlatform,
+} from "./componant/navbar.js";
 document.getElementById("navbar").innerHTML = navbar();
 document.getElementById("footer").innerHTML = footer();
 
 let arr = document.querySelectorAll(".arr");
+
 arr.forEach((el) => {
   el.addEventListener("mouseover", function () {
     add();

@@ -1,0 +1,16 @@
+import {
+  navbar,
+  footer,
+  company,
+  resourse,
+  solutions,
+  salesReadinesPlatform,
+  main,
+} from "./componant/navbar.js";
+
+document.getElementById("navbar").innerHTML = navbar();
+document.getElementById("footer").innerHTML = footer();
+let arr = document.querySelectorAll(".arr");
+
+// main function to
+main(arr);
