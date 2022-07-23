@@ -2,10 +2,11 @@
     margin: 0%;
     padding: 0%;
 box-sizing: border-box;
-font-family: montserrat, "Trebuchet MS", Helvetica, sans-serif
+font-family: sans-serif
 
 
 }
+
 #youtubeframe{
     border-radius: 10px;
     border: none;
@@ -14,6 +15,7 @@ font-family: montserrat, "Trebuchet MS", Helvetica, sans-serif
 #navbar {
     /* border: 1px solid black; */
     background: #fff;
+    z-index: 1;
     width: 100%;
     display: flex;
     gap: 14%;
@@ -72,6 +74,7 @@ font-family: montserrat, "Trebuchet MS", Helvetica, sans-serif
 
 #request_demo a {
     border-radius: 20px;
+    margin-top: 3%;
     color: white;
     height: 40px;
     width: 140px;
