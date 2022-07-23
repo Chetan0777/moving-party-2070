@@ -6,6 +6,10 @@ font-family: montserrat, "Trebuchet MS", Helvetica, sans-serif
 
 
 }
+#youtubeframe{
+    border-radius: 10px;
+    border: none;
+}
 
 #navbar {
     /* border: 1px solid black; */
@@ -16,7 +20,7 @@ font-family: montserrat, "Trebuchet MS", Helvetica, sans-serif
     margin: auto;
     height: 50px;
     padding-top: 3%;
-    padding-bottom: 5%;
+    padding-bottom: 3%;
     position: sticky;
     top: 0%;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
@@ -67,9 +71,13 @@ font-family: montserrat, "Trebuchet MS", Helvetica, sans-serif
 
 
 #request_demo a {
-    padding: 10px 30px;
     border-radius: 20px;
     color: white;
+    height: 40px;
+    width: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: rgb(26, 26, 169);
     transition: 0.7s;
     /* border: solid red; */
