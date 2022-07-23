@@ -11,17 +11,18 @@
     <!-- <link rel="stylesheet" href="solution.css"> -->
 
     <link rel="stylesheet" href="register.css" />
+    <link rel="stylesheet" href="/moving-party-2070/fw19_1035/navbar_footer.css">
     
 <head>
     <style>
       #reg{
         margin: auto;
         width:80%;
-        height: 700px;
+        height: 1000px;
         text-align: center;
         align-items: center;
         background-color: transparent;
-        padding-bottom: 300px;
+        padding-bottom: 200px;
 
       }
       #reg > img{
@@ -52,6 +53,8 @@
 <body>
 
   <body>
+    <div id="navbar"></div>
+    <div id="window"></div>
  
     <div id="reg">
       <img src="https://10qnr7pp4618p5tu1sihfwn1-wpengine.netdna-ssl.com/wp-content/uploads/2021/11/badges-g2-2021-stacked-833x666.png" alt="two">
@@ -68,6 +71,7 @@
   </div>
   
   <div id="register">
+    <br><br>
     <h1>Save your Sport Register Now </h1>
     <div id="Homeitem"></div>
     <div id="icon"></div>
@@ -76,6 +80,7 @@
     <div id="mainpage">
 
       <div id="paymentpage">
+        <br><br>
         <p>
           Register at MindTickle
         </p>
@@ -83,11 +88,15 @@
           <div id="name">
             <div>
               <p>First Name</p>
+              
               <input id="fname" type="text" required />
+              
             </div>
             <div>
               <p>Last Name</p>
+              
               <input id="lname" type="text" required />
+              <br><br>
             </div>
           </div>
 
@@ -96,7 +105,8 @@
             <p>Email</p>
 
             <input type="email" id="mail" placeholder="Eg:-abc123@gmail.com" />
-
+            <br><br>
+            <br>
 
           </div>
 
@@ -105,6 +115,9 @@
               <p>Card Number</p>
               <div id="cardvalue">
                 <input type="number" required id="atmno" placeholder="Enter 16 Digit Card Number" />
+                <br><br>
+                <br>
+                
                 <div>
                   <img src="https://cdn-icons-png.flaticon.com/128/217/217445.png" alt="" />
                   <img src="https://cdn-icons-png.flaticon.com/128/196/196543.png" alt="" />
@@ -115,21 +128,27 @@
 
 
                 </div>
+                <br>
               </div>
+              <br>
+              <br>
             </div>
           </div>
 
           <div id="expirydetails">
             <div>
               <p>Card Expiry</p>
+              <br>
               <input type="month" value="month" placeholder="Select Month" required id="month" />
             </div>
             <div>
               <p>CVV</p>
+              <br>
               <input type="number" id="cvvpin" placeholder="000" required />
             </div>
           </div>
-
+<br>
+<br>
           <div id="combine">
             <div id="contry">
               <p>Country</p>
@@ -211,6 +230,8 @@
 
             </div>
           </div>
+          <br>
+          <br>
           <div id="checkbox">
 
             <input type="checkbox" id="check" />
@@ -218,7 +239,7 @@
             <label for="Accept all conditions">Accept all conditions</label>
           </div>
           <div id="paymentbtn">
-
+<br><br>
             <input type="submit" value="Register here" required />
           </div>
         </form>
@@ -227,4 +248,4 @@
 </body>
 
 </html>
-<script src="register.js"></script>
+<script src="register.js" type="module"></script>
