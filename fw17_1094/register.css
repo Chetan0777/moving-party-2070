@@ -30,7 +30,7 @@ font-family: 'Roboto', sans-serif;
 
 #paymentpage>p{
     background-color: orangered;
-    font-size: 50px;
+    font-size: 20px;
     text-align: center;
     border-radius: 5px;
     width: 100%;
@@ -42,14 +42,14 @@ font-family: 'Roboto', sans-serif;
 {
     display: flex;
 }
-#name >div > p{
+/* #name >div > p{
     background-color: orangered;
-}
+} */
 #name >div>input
 {
     width: 120%;
- font-size: 25px;
-    padding: 20px;
+ font-size: 15px;
+    padding: 10px;
     text-align: center;
     border-radius: 10px; 
 }
@@ -61,7 +61,7 @@ font-family: 'Roboto', sans-serif;
                            
 #email>input
 {
-    padding:20px;
+    padding:10px;
     font-size: 16px;
      width: 40%;
      border-radius: 10px;
@@ -84,7 +84,7 @@ font-family: 'Roboto', sans-serif;
     width: 90%; 
 }
 #cardvalue>input{
-    padding: 20px;
+    padding: 10px;
     width: 40%;
     border-radius: 5px;
     font-size: 16px;
@@ -143,7 +143,7 @@ font-family: 'Roboto', sans-serif;
                         
 #contry>Select{
     width: 75%;
-    padding: 18px;
+    padding: 10px;
     font-size: 16px;
 }
 
@@ -155,9 +155,9 @@ font-family: 'Roboto', sans-serif;
     margin-top: 50px;
     
 }
-#total >p{
+/* #total >p{
     background-color: orangered;
-}
+} */
 #total>input{
     width: 200px;
     height: 40px;
@@ -167,7 +167,7 @@ font-family: 'Roboto', sans-serif;
     margin-top: 20px;
 }
 #total>p{
-    font-size: 22px;
+    font-size: 20px;
     margin-top: 25px;
 }
                     
@@ -177,7 +177,7 @@ font-family: 'Roboto', sans-serif;
     /* margin-bottom: -40px; */
     font-size: 25px;
     display: inline;
-    background-color: orangered;
+    /* background-color: orangered; */
     /* padding-top: 100px; */
 }  
 #checkbox>input{
@@ -188,7 +188,7 @@ font-family: 'Roboto', sans-serif;
 
 
 #checkbox:hover{
-    color: rgb(21, 57, 124);
+    color:green;
     font-weight:700;
 }
 
@@ -483,5 +483,11 @@ p{
     font-size: 40px;
     height: auto;
     /* background-color: orangered; */
+
+}
+#register {
+    width: 60%;
+    margin-left: 20%;
+    margin-bottom: 30%;
 
 }
