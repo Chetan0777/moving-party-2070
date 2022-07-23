@@ -172,8 +172,10 @@ body{
 #unleash2 #unleash_gridcard{
     width: 95%;
     /* height: 600px; */
+
     /* border: 1px solid green; */
     margin: auto;
+    margin-top: 12%;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 70px;
