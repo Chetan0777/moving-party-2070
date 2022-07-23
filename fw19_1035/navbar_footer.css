@@ -286,7 +286,7 @@ color: black;
     /* height: 350px; */
     display: flex;
     /* padding: 6px; */
-    position: sticky;
+    position: fixed;
     margin-left: 3%;
    top: 100px;
     background-color: white;
